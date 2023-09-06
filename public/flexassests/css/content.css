@@ -1,0 +1,23 @@
+.content{
+   direction: rtl;
+    position: relative;
+    top:110px;
+right:245px;
+    width: calc(100% - 250px);
+    background-color: #9ca3af;
+animation-name: change-color;
+    animation-duration: 3s;
+}
+@media screen and (max-width: 760px) {
+    .content {
+
+    width: 100%}
+}
+@keyframes change-color {
+    from{
+        background-color: #9ca3af;
+    }
+    to{
+        background-color: #0dcaf0;
+    }
+}
